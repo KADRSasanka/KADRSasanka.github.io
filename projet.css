@@ -8,3 +8,13 @@
     height: 85.5vh;
     display: block;
 }
+.card-header {
+    background-color: white;
+    padding: 0;
+}
+.card-para {
+    color: rgba(0, 0, 0, 0.85);
+}
+.intro-h1 {
+    margin-bottom: 5vh;
+}
