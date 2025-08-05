@@ -1,0 +1,10 @@
+.header{
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    height: 85.5vh;
+    display: block;
+}

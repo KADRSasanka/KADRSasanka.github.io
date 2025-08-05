@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+body {
+    background-color: #171717;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 10px;
+    position: relative;
+}
+.header{
+    background-color: #0e0e0e;
+    width: 96%;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px; /*Top Right Bottom Left*/
+    display: flex;
+}
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.navbar ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    display: block;
+    margin: 0 0 0 40px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    cursor: pointer;
+    color: rgb(239, 131, 17);
+}
+.container {
+    width: 96%;
+    position: relative;
+    height: 82.5vh;
+    background-color: #0e0e0e;
+    margin-top: 10px;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+}
+.intro {
+    background-color: transparent;
+    margin-top: 22vh;
+    margin-left: 3%;
+}
+.intro-h1 {
+    font-size: 52px;
+    color: rgb(239, 131, 17);
+}
+.intro-p {
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+.orange-button {
+    background-color: transparent;
+    color: rgb(239, 131, 17);
+    padding: 15px 30px 15px 30px;
+    border-color: rgb(239, 131, 17);
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.orange-button:hover {
+    background-color: rgb(239, 131, 17);
+    color: whitesmoke;
+    padding: 15px 30px 15px 30px;
+    border-color: rgb(239, 131, 17);
+    border-radius: 8px;
+    font-size: 16px;
+}
+.image-logo-back {
+    margin-left: 15%;
+    margin-top: 6vh;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+.image-logo {
+    width: 480px;
+    height: 480px;
+    background-color: aqua;
+    margin: 10px 0px 9px 10px;
+    background-image: url("Images/WhatsApp\ Image\ 2025-02-15\ at\ 22.02.04_58dd64c2.png");
+    background-position: center; background-size: cover;
+}
+.social-media-tab {
+    margin-top: 10vh;
+}
+.social {
+    width: 25px;
+    height: auto;
+    margin-right: 30px;
+}
+.social:hover {
+    transform: scale(1.3);
+    transition-duration: 1.5s;
+}
